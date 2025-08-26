@@ -171,7 +171,7 @@ def _run(args, num_workers=4, is_tune=False, from_sena=False):
 
 
     if args.mode == 'test':
-        model.load_state_dict(torch.load('pt/mosi-aligned.pth'))
+        model.load_state_dict(torch.load('pt/mosi-aligned.pth'),strict=False)
         results = trainer.do_test(model, dataloader['test'], mode="TEST")
         sys.stdout.flush()
         input('[Press Any Key to start another run]')

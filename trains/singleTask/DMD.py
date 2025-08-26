@@ -137,13 +137,17 @@ class DMD():
                     loss_sa_sla = self.MSE(output['s_a'].permute(1, 2, 0), output['s_a_r'])
                     loss_s_sr = loss_sl_slr + loss_sv_slv + loss_sa_sla
 
-                    # ort loss
-                    cosine_similarity_s_c_l = self.cosine(output['s_l'], output['c_l'],
-                                                          torch.tensor([-1]).cuda()).mean(0)
-                    cosine_similarity_s_c_v = self.cosine(output['s_v'], output['c_v'],
-                                                          torch.tensor([-1]).cuda()).mean(0)
-                    cosine_similarity_s_c_a = self.cosine(output['s_a'], output['c_a'],
-                                                          torch.tensor([-1]).cuda()).mean(0)
+                    # ort loss (reshape to 2D for CosineEmbeddingLoss)
+                    s_l = output['s_l'].reshape(-1, output['s_l'].size(-1))
+                    c_l = output['c_l'].reshape(-1, output['c_l'].size(-1))
+                    s_v = output['s_v'].reshape(-1, output['s_v'].size(-1))
+                    c_v = output['c_v'].reshape(-1, output['c_v'].size(-1))
+                    s_a = output['s_a'].reshape(-1, output['s_a'].size(-1))
+                    c_a = output['c_a'].reshape(-1, output['c_a'].size(-1))
+                    target = torch.full((s_l.size(0),), -1.0, device=s_l.device)
+                    cosine_similarity_s_c_l = self.cosine(s_l, c_l, target).mean(0)
+                    cosine_similarity_s_c_v = self.cosine(s_v, c_v, target).mean(0)
+                    cosine_similarity_s_c_a = self.cosine(s_a, c_a, target).mean(0)
                     loss_ort = cosine_similarity_s_c_l + cosine_similarity_s_c_v + cosine_similarity_s_c_a
 
                     # margin loss
