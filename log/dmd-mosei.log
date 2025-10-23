@@ -1,0 +1,109 @@
+2025-10-20 23:10:28,511 - MMSA [INFO] - train samples: (16326,)
+2025-10-20 23:10:31,303 - MMSA [INFO] - valid samples: (1871,)
+2025-10-20 23:10:34,164 - MMSA [INFO] - test samples: (4659,)
+2025-10-20 23:10:56,602 - MMSA [INFO] - train samples: (16326,)
+2025-10-20 23:10:59,372 - MMSA [INFO] - valid samples: (1871,)
+2025-10-20 23:11:02,127 - MMSA [INFO] - test samples: (4659,)
+2025-10-20 23:13:00,482 - MMSA [INFO] - train samples: (16326,)
+2025-10-20 23:13:03,318 - MMSA [INFO] - valid samples: (1871,)
+2025-10-20 23:13:06,068 - MMSA [INFO] - test samples: (4659,)
+2025-10-20 23:16:57,865 - MMSA [INFO] - >> Epoch: 1 TRAIN-(dmd) [1/1/1] >> total_loss: 11.238  Acc_2: 0.7648  F1_score: 0.7542  Acc_7: 0.4481  MAE: 0.7297 
+2025-10-20 23:17:05,445 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8421  F1_score: 0.8404  Acc_7: 0.5259  MAE: 0.5468  Loss: 0.5469 
+2025-10-20 23:17:23,902 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8509  F1_score: 0.8494  Acc_7: 0.4997  MAE: 0.5807  Loss: 0.5810 
+2025-10-20 23:21:13,053 - MMSA [INFO] - >> Epoch: 2 TRAIN-(dmd) [1/2/1] >> total_loss: 6.3891  Acc_2: 0.8774  F1_score: 0.8773  Acc_7: 0.5409  MAE: 0.5212 
+2025-10-20 23:21:20,716 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8428  F1_score: 0.8402  Acc_7: 0.5174  MAE: 0.5444  Loss: 0.5444 
+2025-10-20 23:21:39,290 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8423  F1_score: 0.8398  Acc_7: 0.5229  MAE: 0.5714  Loss: 0.5705 
+2025-10-20 23:25:29,379 - MMSA [INFO] - >> Epoch: 3 TRAIN-(dmd) [1/3/1] >> total_loss: 4.6067  Acc_2: 0.9135  F1_score: 0.9134  Acc_7: 0.6271  MAE: 0.4212 
+2025-10-20 23:25:37,150 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8408  F1_score: 0.8381  Acc_7: 0.5174  MAE: 0.5489  Loss: 0.5489 
+2025-10-20 23:25:55,926 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8476  F1_score: 0.8456  Acc_7: 0.5246  MAE: 0.5591  Loss: 0.5592 
+2025-10-20 23:36:12,094 - MMSA [INFO] - train samples: (16326,)
+2025-10-20 23:37:59,033 - MMSA [INFO] - train samples: (16326,)
+2025-10-20 23:38:01,206 - MMSA [INFO] - valid samples: (1871,)
+2025-10-20 23:38:02,764 - MMSA [INFO] - test samples: (4659,)
+2025-10-20 23:41:53,829 - MMSA [INFO] - >> Epoch: 1 TRAIN-(dmd) [1/1/1] >> total_loss: 11.238  Acc_2: 0.7648  F1_score: 0.7542  Acc_7: 0.4481  MAE: 0.7297 
+2025-10-20 23:42:01,324 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8421  F1_score: 0.8404  Acc_7: 0.5259  MAE: 0.5468  Loss: 0.5469 
+2025-10-20 23:42:19,745 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8509  F1_score: 0.8494  Acc_7: 0.4997  MAE: 0.5807  Loss: 0.5810 
+2025-10-20 23:45:52,744 - MMSA [INFO] - train samples: (16326,)
+2025-10-20 23:45:55,046 - MMSA [INFO] - valid samples: (1871,)
+2025-10-20 23:45:57,618 - MMSA [INFO] - test samples: (4659,)
+2025-10-20 23:49:54,387 - MMSA [INFO] - >> Epoch: 1 TRAIN-(dmd) [1/1/1] >> total_loss: 11.238  Acc_2: 0.7648  F1_score: 0.7542  Acc_7: 0.4481  MAE: 0.7297 
+2025-10-20 23:50:02,276 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8421  F1_score: 0.8404  Acc_7: 0.5259  MAE: 0.5468  Loss: 0.5469 
+2025-10-20 23:50:20,817 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8509  F1_score: 0.8494  Acc_7: 0.4997  MAE: 0.5807  Loss: 0.5810 
+2025-10-20 23:54:06,507 - MMSA [INFO] - >> Epoch: 2 TRAIN-(dmd) [1/2/1] >> total_loss: 6.3891  Acc_2: 0.8774  F1_score: 0.8773  Acc_7: 0.5409  MAE: 0.5212 
+2025-10-20 23:54:14,154 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8428  F1_score: 0.8402  Acc_7: 0.5174  MAE: 0.5444  Loss: 0.5444 
+2025-10-20 23:54:32,722 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8423  F1_score: 0.8398  Acc_7: 0.5229  MAE: 0.5714  Loss: 0.5705 
+2025-10-20 23:58:34,102 - MMSA [INFO] - >> Epoch: 3 TRAIN-(dmd) [1/3/1] >> total_loss: 4.6067  Acc_2: 0.9135  F1_score: 0.9134  Acc_7: 0.6271  MAE: 0.4212 
+2025-10-20 23:58:42,204 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8408  F1_score: 0.8381  Acc_7: 0.5174  MAE: 0.5489  Loss: 0.5489 
+2025-10-20 23:59:02,027 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8476  F1_score: 0.8456  Acc_7: 0.5246  MAE: 0.5591  Loss: 0.5592 
+2025-10-21 00:03:00,870 - MMSA [INFO] - >> Epoch: 4 TRAIN-(dmd) [2/4/1] >> total_loss: 3.9765  Acc_2: 0.9401  F1_score: 0.9399  Acc_7: 0.6950  MAE: 0.3444 
+2025-10-21 00:03:09,056 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8428  F1_score: 0.8416  Acc_7: 0.5088  MAE: 0.5515  Loss: 0.5515 
+2025-10-21 00:03:28,826 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8478  F1_score: 0.8465  Acc_7: 0.5132  MAE: 0.5638  Loss: 0.5639 
+2025-10-21 00:07:32,112 - MMSA [INFO] - >> Epoch: 5 TRAIN-(dmd) [3/5/1] >> total_loss: 3.6621  Acc_2: 0.9553  F1_score: 0.9553  Acc_7: 0.7326  MAE: 0.2997 
+2025-10-21 00:07:40,295 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8296  F1_score: 0.8313  Acc_7: 0.5425  MAE: 0.5249  Loss: 0.5249 
+2025-10-21 00:08:00,131 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8379  F1_score: 0.8393  Acc_7: 0.5334  MAE: 0.5393  Loss: 0.5403 
+2025-10-21 00:12:00,586 - MMSA [INFO] - >> Epoch: 6 TRAIN-(dmd) [1/6/1] >> total_loss: 3.4096  Acc_2: 0.9674  F1_score: 0.9673  Acc_7: 0.7650  MAE: 0.2615 
+2025-10-21 00:12:08,594 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8359  F1_score: 0.8380  Acc_7: 0.5243  MAE: 0.5397  Loss: 0.5398 
+2025-10-21 00:12:28,312 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8387  F1_score: 0.8403  Acc_7: 0.5151  MAE: 0.5552  Loss: 0.5551 
+2025-10-21 00:16:22,343 - MMSA [INFO] - >> Epoch: 7 TRAIN-(dmd) [2/7/1] >> total_loss: 3.2053  Acc_2: 0.9758  F1_score: 0.9757  Acc_7: 0.7925  MAE: 0.2317 
+2025-10-21 00:16:30,246 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8428  F1_score: 0.8413  Acc_7: 0.5286  MAE: 0.5297  Loss: 0.5298 
+2025-10-21 00:16:49,166 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8470  F1_score: 0.8460  Acc_7: 0.5263  MAE: 0.5414  Loss: 0.5416 
+2025-10-21 00:20:41,184 - MMSA [INFO] - >> Epoch: 8 TRAIN-(dmd) [3/8/1] >> total_loss: 3.0708  Acc_2: 0.9821  F1_score: 0.9821  Acc_7: 0.8192  MAE: 0.2093 
+2025-10-21 00:20:49,026 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8498  F1_score: 0.8490  Acc_7: 0.5281  MAE: 0.5313  Loss: 0.5313 
+2025-10-21 00:21:07,883 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8426  F1_score: 0.8413  Acc_7: 0.5278  MAE: 0.5416  Loss: 0.5409 
+2025-10-21 00:24:59,772 - MMSA [INFO] - >> Epoch: 9 TRAIN-(dmd) [4/9/1] >> total_loss: 2.9318  Acc_2: 0.9860  F1_score: 0.9860  Acc_7: 0.8322  MAE: 0.1900 
+2025-10-21 00:25:07,666 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8414  F1_score: 0.8429  Acc_7: 0.5302  MAE: 0.5311  Loss: 0.5310 
+2025-10-21 00:25:26,656 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8418  F1_score: 0.8431  Acc_7: 0.5239  MAE: 0.5467  Loss: 0.5475 
+2025-10-21 00:29:15,674 - MMSA [INFO] - >> Epoch: 10 TRAIN-(dmd) [5/10/1] >> total_loss: 2.8509  Acc_2: 0.9883  F1_score: 0.9883  Acc_7: 0.8460  MAE: 0.1759 
+2025-10-21 00:29:23,574 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8498  F1_score: 0.8494  Acc_7: 0.5281  MAE: 0.5354  Loss: 0.5355 
+2025-10-21 00:29:42,569 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8520  F1_score: 0.8519  Acc_7: 0.5265  MAE: 0.5453  Loss: 0.5453 
+2025-10-21 00:33:32,329 - MMSA [INFO] - >> Epoch: 11 TRAIN-(dmd) [6/11/1] >> total_loss: 2.7707  Acc_2: 0.9909  F1_score: 0.9909  Acc_7: 0.8532  MAE: 0.1650 
+2025-10-21 00:33:40,166 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8387  F1_score: 0.8396  Acc_7: 0.5302  MAE: 0.5312  Loss: 0.5312 
+2025-10-21 00:33:59,138 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8478  F1_score: 0.8488  Acc_7: 0.5282  MAE: 0.5405  Loss: 0.5413 
+2025-10-21 00:37:48,255 - MMSA [INFO] - >> Epoch: 12 TRAIN-(dmd) [7/12/1] >> total_loss: 2.6187  Acc_2: 0.9934  F1_score: 0.9934  Acc_7: 0.8818  MAE: 0.1420 
+2025-10-21 00:37:55,974 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8547  F1_score: 0.8548  Acc_7: 0.5366  MAE: 0.5252  Loss: 0.5251 
+2025-10-21 00:38:14,588 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8498  F1_score: 0.8499  Acc_7: 0.5287  MAE: 0.5425  Loss: 0.5419 
+2025-10-21 00:42:05,199 - MMSA [INFO] - >> Epoch: 13 TRAIN-(dmd) [8/13/1] >> total_loss: 2.4426  Acc_2: 0.9973  F1_score: 0.9973  Acc_7: 0.9155  MAE: 0.1152 
+2025-10-21 00:42:12,935 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8470  F1_score: 0.8481  Acc_7: 0.5377  MAE: 0.5197  Loss: 0.5197 
+2025-10-21 00:42:31,480 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8462  F1_score: 0.8471  Acc_7: 0.5323  MAE: 0.5372  Loss: 0.5370 
+2025-10-21 00:46:21,703 - MMSA [INFO] - >> Epoch: 14 TRAIN-(dmd) [1/14/1] >> total_loss: 2.3924  Acc_2: 0.9980  F1_score: 0.9980  Acc_7: 0.9284  MAE: 0.1058 
+2025-10-21 00:46:29,488 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8540  F1_score: 0.8538  Acc_7: 0.5377  MAE: 0.5240  Loss: 0.5240 
+2025-10-21 00:46:48,068 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8492  F1_score: 0.8488  Acc_7: 0.5306  MAE: 0.5389  Loss: 0.5382 
+2025-10-21 00:50:36,452 - MMSA [INFO] - >> Epoch: 15 TRAIN-(dmd) [2/15/1] >> total_loss: 2.3579  Acc_2: 0.9984  F1_score: 0.9984  Acc_7: 0.9338  MAE: 0.1012 
+2025-10-21 00:50:44,225 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8477  F1_score: 0.8482  Acc_7: 0.5206  MAE: 0.5310  Loss: 0.5311 
+2025-10-21 00:51:02,845 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8478  F1_score: 0.8483  Acc_7: 0.5302  MAE: 0.5400  Loss: 0.5396 
+2025-10-21 00:54:52,002 - MMSA [INFO] - >> Epoch: 16 TRAIN-(dmd) [3/16/1] >> total_loss: 2.3349  Acc_2: 0.9986  F1_score: 0.9986  Acc_7: 0.9419  MAE: 0.0974 
+2025-10-21 00:54:59,749 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8463  F1_score: 0.8468  Acc_7: 0.5302  MAE: 0.5317  Loss: 0.5316 
+2025-10-21 00:55:18,436 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8476  F1_score: 0.8480  Acc_7: 0.5229  MAE: 0.5447  Loss: 0.5442 
+2025-10-21 00:59:15,229 - MMSA [INFO] - >> Epoch: 17 TRAIN-(dmd) [4/17/1] >> total_loss: 2.3205  Acc_2: 0.9991  F1_score: 0.9991  Acc_7: 0.9432  MAE: 0.0942 
+2025-10-21 00:59:23,247 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8484  F1_score: 0.8490  Acc_7: 0.5409  MAE: 0.5325  Loss: 0.5326 
+2025-10-21 00:59:42,574 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8476  F1_score: 0.8480  Acc_7: 0.5248  MAE: 0.5442  Loss: 0.5441 
+2025-10-21 01:03:49,801 - MMSA [INFO] - >> Epoch: 18 TRAIN-(dmd) [5/18/1] >> total_loss: 2.3018  Acc_2: 0.9986  F1_score: 0.9986  Acc_7: 0.9462  MAE: 0.0920 
+2025-10-21 01:03:58,176 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8554  F1_score: 0.8543  Acc_7: 0.5297  MAE: 0.5293  Loss: 0.5294 
+2025-10-21 01:04:18,151 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8514  F1_score: 0.8507  Acc_7: 0.5205  MAE: 0.5449  Loss: 0.5445 
+2025-10-21 01:08:20,491 - MMSA [INFO] - >> Epoch: 19 TRAIN-(dmd) [6/19/1] >> total_loss: 2.2815  Acc_2: 0.9990  F1_score: 0.9990  Acc_7: 0.9470  MAE: 0.0894 
+2025-10-21 01:08:28,682 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8519  F1_score: 0.8524  Acc_7: 0.5339  MAE: 0.5245  Loss: 0.5245 
+2025-10-21 01:08:48,310 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8492  F1_score: 0.8495  Acc_7: 0.5325  MAE: 0.5383  Loss: 0.5378 
+2025-10-21 01:12:49,413 - MMSA [INFO] - >> Epoch: 20 TRAIN-(dmd) [7/20/1] >> total_loss: 2.2426  Acc_2: 0.9991  F1_score: 0.9991  Acc_7: 0.9563  MAE: 0.0839 
+2025-10-21 01:12:57,905 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8547  F1_score: 0.8546  Acc_7: 0.5318  MAE: 0.5286  Loss: 0.5285 
+2025-10-21 01:13:17,633 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8520  F1_score: 0.8517  Acc_7: 0.5259  MAE: 0.5400  Loss: 0.5390 
+2025-10-21 01:17:20,230 - MMSA [INFO] - >> Epoch: 21 TRAIN-(dmd) [8/21/1] >> total_loss: 2.1778  Acc_2: 0.9993  F1_score: 0.9993  Acc_7: 0.9699  MAE: 0.0734 
+2025-10-21 01:17:28,507 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8561  F1_score: 0.8561  Acc_7: 0.5350  MAE: 0.5246  Loss: 0.5246 
+2025-10-21 01:17:48,177 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8492  F1_score: 0.8494  Acc_7: 0.5274  MAE: 0.5387  Loss: 0.5385 
+2025-10-21 01:21:59,882 - MMSA [INFO] - >> Epoch: 22 TRAIN-(dmd) [9/22/1] >> total_loss: 2.1559  Acc_2: 0.9995  F1_score: 0.9995  Acc_7: 0.9732  MAE: 0.0703 
+2025-10-21 01:22:08,519 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8512  F1_score: 0.8515  Acc_7: 0.5404  MAE: 0.5232  Loss: 0.5232 
+2025-10-21 01:22:29,467 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8498  F1_score: 0.8501  Acc_7: 0.5276  MAE: 0.5377  Loss: 0.5379 
+2025-10-21 01:26:42,305 - MMSA [INFO] - >> Epoch: 23 TRAIN-(dmd) [10/23/1] >> total_loss: 2.1463  Acc_2: 0.9993  F1_score: 0.9993  Acc_7: 0.9752  MAE: 0.0682 
+2025-10-21 01:26:50,486 - MMSA [INFO] - VAL-(dmd) >>  Acc_2: 0.8533  F1_score: 0.8534  Acc_7: 0.5318  MAE: 0.5302  Loss: 0.5302 
+2025-10-21 01:27:11,358 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8528  F1_score: 0.8527  Acc_7: 0.5237  MAE: 0.5413  Loss: 0.5417 
+2025-10-21 01:27:34,505 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8462  F1_score: 0.8471  Acc_7: 0.5323  MAE: 0.5372  Loss: 0.5382 
+2025-10-21 01:27:35,672 - MMSA [INFO] - Results saved to result/normal/mosei.csv.
+2025-10-21 01:31:00,652 - MMSA [INFO] - train samples: (16326,)
+2025-10-21 01:31:03,478 - MMSA [INFO] - valid samples: (1871,)
+2025-10-21 01:31:05,263 - MMSA [INFO] - test samples: (4659,)
+2025-10-21 01:31:55,648 - MMSA [INFO] - train samples: (16326,)
+2025-10-21 01:31:57,452 - MMSA [INFO] - valid samples: (1871,)
+2025-10-21 01:31:59,188 - MMSA [INFO] - test samples: (4659,)
+2025-10-21 01:33:16,385 - MMSA [INFO] - train samples: (16326,)
+2025-10-21 01:33:18,068 - MMSA [INFO] - valid samples: (1871,)
+2025-10-21 01:33:19,782 - MMSA [INFO] - test samples: (4659,)
+2025-10-21 01:33:40,626 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8462  F1_score: 0.8471  Acc_7: 0.5323  MAE: 0.5372  Loss: 0.5380 

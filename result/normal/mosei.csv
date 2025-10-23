@@ -1,0 +1,2 @@
+Model,Acc_2,F1_score,Acc_7,MAE,Loss
+dmd,"(np.float64(84.62), np.float64(0.0))","(np.float64(84.71), np.float64(0.0))","(np.float64(53.23), np.float64(0.0))","(np.float64(53.72), np.float64(0.0))","(np.float64(53.82), np.float64(0.0))"

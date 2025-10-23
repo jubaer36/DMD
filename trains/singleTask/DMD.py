@@ -37,7 +37,7 @@ class DMD():
                  list(model[2].parameters())
 
         optimizer = optim.Adam(params, lr=self.args.learning_rate)
-        scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, verbose=True, patience=self.args.patience)
+        scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=self.args.patience)
 
         epochs, best_epoch = 0, 0
         if return_epoch_results:
@@ -144,10 +144,23 @@ class DMD():
                     c_v = output['c_v'].reshape(-1, output['c_v'].size(-1))
                     s_a = output['s_a'].reshape(-1, output['s_a'].size(-1))
                     c_a = output['c_a'].reshape(-1, output['c_a'].size(-1))
-                    target = torch.full((s_l.size(0),), -1.0, device=s_l.device)
-                    cosine_similarity_s_c_l = self.cosine(s_l, c_l, target).mean(0)
-                    cosine_similarity_s_c_v = self.cosine(s_v, c_v, target).mean(0)
-                    cosine_similarity_s_c_a = self.cosine(s_a, c_a, target).mean(0)
+                    
+                    # Ensure tensors have the same batch dimension
+                    min_size_l = min(s_l.size(0), c_l.size(0))
+                    min_size_v = min(s_v.size(0), c_v.size(0))
+                    min_size_a = min(s_a.size(0), c_a.size(0))
+                    
+                    s_l, c_l = s_l[:min_size_l], c_l[:min_size_l]
+                    s_v, c_v = s_v[:min_size_v], c_v[:min_size_v]
+                    s_a, c_a = s_a[:min_size_a], c_a[:min_size_a]
+                    
+                    target_l = torch.full((min_size_l,), -1.0, device=s_l.device)
+                    target_v = torch.full((min_size_v,), -1.0, device=s_v.device)
+                    target_a = torch.full((min_size_a,), -1.0, device=s_a.device)
+                    
+                    cosine_similarity_s_c_l = self.cosine(s_l, c_l, target_l)
+                    cosine_similarity_s_c_v = self.cosine(s_v, c_v, target_v)
+                    cosine_similarity_s_c_a = self.cosine(s_a, c_a, target_a)
                     loss_ort = cosine_similarity_s_c_l + cosine_similarity_s_c_v + cosine_similarity_s_c_a
 
                     # margin loss

@@ -120,3 +120,7 @@
 2025-08-26 00:28:45,453 - MMSA [INFO] - valid samples: (229,)
 2025-08-26 00:28:45,573 - MMSA [INFO] - test samples: (686,)
 2025-08-26 00:28:50,449 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8796  F1_score: 0.8783  Acc_7: 0.4621  MAE: 0.7035  Loss: 0.7030 
+2025-10-21 01:34:24,311 - MMSA [INFO] - train samples: (1284,)
+2025-10-21 01:34:24,443 - MMSA [INFO] - valid samples: (229,)
+2025-10-21 01:34:24,568 - MMSA [INFO] - test samples: (686,)
+2025-10-21 01:34:29,916 - MMSA [INFO] - TEST-(dmd) >>  Acc_2: 0.8796  F1_score: 0.8783  Acc_7: 0.4621  MAE: 0.7035  Loss: 0.7030 
